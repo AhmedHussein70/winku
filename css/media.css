@@ -1,0 +1,272 @@
+
+@media screen  and (max-width: 1350px){
+    #page-2{
+        width: 85%;
+    }
+}
+
+@media screen  and (max-width: 1250px){
+    #page-2{
+        width: 87%;
+    }
+}
+
+@media screen  and (max-width: 1150px){
+    #page-2{
+        width: 90%;
+        gap: 10px;
+        justify-content: space-evenly;
+    }
+    .fixed-sidebar{
+        display: none;
+    }
+    .fixed-sidebar-2{
+        display: none;
+    }
+    .section-left  {
+        width: 40%;
+    }
+    .par-left-top{
+        width: 100%;
+    }
+    .par-left-center{
+        width: 100%;
+    }
+    .prt1-boot{
+        width: 100%;
+    }
+    .centerPage{
+        display: none;
+    }
+    .midia-1150{
+        display: inline-block;
+    }
+    .section-right{
+        width: 40%;
+    }
+    .parCenterInRight{
+        width: 100%;
+        margin: auto;
+        background-size: cover;
+    }
+}
+
+@media screen  and (max-width: 1000px){
+    header{
+        background-color: #4bb5ef;
+        padding: 10px 0;
+    }
+
+    .one-top{   
+        display: none;
+    }
+
+    .up-one{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 100%;
+        /* border: #000 solid 1px;
+        
+        */
+        padding: 10px 0;
+    }
+    .up-one img{
+        cursor: pointer;
+    }
+    .one-top .fount-in-media-top{
+        color: white;
+        padding: 0 15px;
+        font-size: 19px;
+        display: inline-block;
+        /* border: #000 solid 1px; */
+    }
+    
+    .one-top .fa-bars{
+        color: white;
+        /* border: #000 solid 1px; */
+    }
+
+    .one-top-media{
+        display: inline-block;
+        width: 100%;
+    }
+    .one-top-media .in-media-search {
+        width: 98%;
+        margin: auto;
+        /* border: 1px solid #000; */
+        position: relative;
+    }
+    .one-top-media .in-media-search input{
+        width: 100%;
+        padding: 2px 10px;
+        height: 40px;
+        border: #000 solid 1px;
+    }
+    .one-top-media .in-media-search input:focus-visible{
+        outline: #cccccc 1px solid;
+        border: none;
+    }
+    .one-top-media .in-media-search span{
+        position: absolute;
+        right: 0px;
+        top: 13px;
+        padding: 0 10px;
+        color: #cccccc;
+    }
+    
+    /* #page-2{
+        width: 95%;
+        margin: auto;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .section-left{
+        width: 800px;
+        margin: auto;
+    }
+    .par-left-top {
+        width: 100%;
+    }
+    .par-left-center {
+        width: 100%;
+    }
+    .prt1-boot{
+        width: 100%;
+    }
+    .section-right{
+        
+        top: 100px;
+       
+        width: 800px;
+        margin: auto;
+    }
+    .centerPage{
+        width: 800px;
+        margin: auto;
+    }
+    .parCenterInRight{
+        width: 100%;
+        margin: auto;
+        background-size: cover;
+    }
+    .section-right .par-right-top {
+        width: 100% ;
+    } */
+}
+
+@media screen  and (max-width: 900px){
+   
+    .midia-1150{
+        
+        width: 90%;
+        padding: 20px ;
+        margin-left: 5%;
+    }
+}
+
+@media screen  and (max-width: 850px){
+    .midia-1150{
+        
+        padding: 20px ;
+        margin-left: 5%;
+    }
+}
+@media screen  and (max-width: 750px){
+    
+}
+@media screen  and (max-width: 650px){
+    .midia-1150{
+        padding: 10px ;
+        margin-left: 5%;
+    }
+    .contentwright{
+        margin-left: 10px;
+    }
+    #page-2{
+        width: 95%;
+        margin: auto;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .section-left  {
+        width: 80%;
+        margin: auto;
+    }
+    .section-right{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media screen  and (max-width: 550px){
+    .midiainhundered{
+        width: 90%;
+        margin: auto;
+        border: 1px solid;
+    }
+    .midia-1150{
+        padding: 10px ;
+        margin-left: 5%;
+    }
+    .postis .post-one{
+        padding: 10px;
+    }
+    
+    .inpostTwo .imaName .avatar10 img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .imageinpost-one img{
+        width: 40px;
+        height: 40px;
+    }
+    .LoveMaid h3{
+        font-size: 19px;
+    }
+    .allViews ul{
+        flex-direction: column;
+        /* border: solid; */
+        width: 100%;
+    }
+    .allViews ul li a{
+        margin-bottom: 10px;
+        padding: 5px 25px;
+    }
+    .commenttas .commenUser {
+        flex-direction: column;
+    }
+    .cooomta2 .praComm{
+        width: 95%;
+    }
+   
+    
+}
+
+@media screen  and (max-width: 450px){
+    .midia-1150{
+        padding: 5px ;
+        margin-left: 5%;
+    }
+   
+    .contentwright{
+        margin-left: 15px;
+    }
+    .in-footer .infot-two{
+       width: 100%;
+    }
+}
+
+@media screen  and (max-width: 350px){
+    
+}
+
+@media screen  and (max-width: 250px){
+    
+}
